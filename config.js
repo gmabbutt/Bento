@@ -13,7 +13,7 @@ const CONFIG = {
   // General
   name: 'George',
   imageBackground: false,
-  openInNewTab: true,
+  openInNewTab: false,
 
   // Greetings
   greetingMorning: 'Good morning!',
