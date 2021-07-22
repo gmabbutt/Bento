@@ -11,7 +11,7 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'George',
   imageBackground: false,
   openInNewTab: true,
 
@@ -22,11 +22,11 @@ const CONFIG = {
   greetingNight: 'Go to Sleep!',
 
   // Weather
-  weatherKey: 'InsertYourAPIKeyHere123456',
+  weatherKey: 'bd779b7439132ab851158644904c4aef',
   weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
   weatherUnit: 'C',
-  weatherLatitude: '37.774929',
-  weatherLongitude: '-122.419418',
+  weatherLatitude: '40.701814',
+  weatherLongitude: '-111.557882',
   
 
   // ┌─┐┌─┐┬─┐┌┬┐┌─┐
@@ -37,21 +37,21 @@ const CONFIG = {
   cards: [
     {
       id: '1',
-      name: 'Github',
-      icon: 'github',
-      link: 'https://github.com/',
+      name: 'Canvas',
+      icon: 'book',
+      link: 'https://utah.instructure.com/',
     },
     {
       id: '2',
-      name: 'Mail',
-      icon: 'mail',
-      link: 'https://mail.protonmail.com/',
+      name: 'Trakt',
+      icon: 'tv',
+      link: 'https://trakt.tv/',
     },
     {
       id: '3',
-      name: 'Todoist',
-      icon: 'trello',
-      link: 'https://calendar.google.com/calendar/r',
+      name: 'Github',
+      icon: 'github',
+      link: 'https://github.com',
     },
     {
       id: '4',
@@ -67,9 +67,9 @@ const CONFIG = {
     },
     {
       id: '6',
-      name: 'Odysee',
+      name: 'YouTube',
       icon: 'youtube',
-      link: 'https://odysee.com/',
+      link: 'https://youtube.com/',
     },
   ],
 
@@ -78,45 +78,53 @@ const CONFIG = {
   // ┴─┘┴└─┘ ┴ └─┘
 
   //Icons
-  firstListIcon: 'music',
-  secondListIcon: 'coffee',
+  firstListIcon: 'play',
+  secondListIcon: 'archive',
 
   // Links
   lists: {
     firstList: [
       {
-        name: 'Inspirational',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Netflix',
+        link: 'https://netflix.com',
       },
       {
-        name: 'Classic',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Live TV',
+        link: 'https://www.tv.youtube.com',
       },
       {
-        name: 'Oldies',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Hulu',
+        link: 'https://www.hulu.com',
       },
       {
-        name: 'Rock',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Disney+',
+        link: 'https://www.disneyplus.com',
+      },
+      {
+        name: 'HBO Max',
+        link: 'https://www.hbomax.com',
       },
     ],
     secondList: [
       {
-        name: 'Linkedin',
-        link: 'https://linkedin.com/',
+        name: 'The Guardian',
+        link: 'https://theguardian.com/',
       },
       {
-        name: 'Figma',
-        link: 'https://figma.com/',
+        name: 'Jacobin',
+        link: 'https://jacobinmag.com/',
       },
       {
-        name: 'Dribbble',
-        link: 'https://dribbble.com',
+        name: 'SL Tribune',
+        link: 'https://sltrib.com',
       },
       {
-        name: 'Telegram',
-        link: 'https://webk.telegram.org',
+        name: 'Current Affairs',
+        link: 'https://currentaffairs.org',
+      },
+      {
+        name: 'Novara',
+        link: 'https://novaramedia.com',
       },
     ],
   },
